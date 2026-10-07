@@ -8,9 +8,11 @@ No data files are committed. The notebook is saved **with its original outputs**
 |------|---------|--------|
 | `UnlabelledDataset.zip` | StockTwits posts for 20 tickers (one CSV per ticker) | Course-provided scrape (2020); not redistributable |
 | `UnlabelledDataset_2.zip` | StockTwits posts for AAPL, AMZN, NFLX, QQQ, TSLA | Course-provided scrape (2020); not redistributable |
-| `crsp_sp500_2007_2023.csv.gz` | CRSP daily file, S&P 500 constituents (CIZ format) | WRDS, licensed; see the companion CAPM repository for the field list |
+| `crsp_sp500_2007_2023.csv.gz` | CRSP daily file, S&P 500 constituents (CIZ format) | WRDS, licensed; fields listed below |
 
 Each StockTwits CSV has the columns `symbol`, `message`, `datetime` (UTC), `user` (numeric ID) and `message_id`.
+
+The CRSP file must contain these 13 fields (CIZ format): `INDNO`, `PERMNO`, `Ticker`, `MbrStartDt`, `MbrEndDt`, `ShareType`, `SecurityType`, `SecuritySubType`, `USIncFlg`, `IssuerType`, `DlyCalDt`, `DlyRet`, `DlyRetMissFlg`. Every row in the original extract has `INDNO = 1000500` (S&P 500 constituents).
 
 Downloaded automatically by the notebook (internet required):
 - **StockEmotions** labelled posts, from the authors' GitHub repository (`adlnlp/StockEmotions`);

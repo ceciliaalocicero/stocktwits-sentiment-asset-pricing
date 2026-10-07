@@ -4,7 +4,7 @@ An end-to-end text-as-data project in Python. It cleans 5.6 million StockTwits m
 
 > **Status:** completed team project (4 authors), originally developed as coursework in an MSc finance course at Bocconi University. See [Authors](#authors-and-contributions), [How the notebook was produced](#how-the-notebook-was-produced) and [Disclaimer](#disclaimer).
 >
-> **Related projects:** [Testing the CAPM on US Equities](https://github.com/ceciliaalocicero/capm-empirical-tests-sp500) · [Markowitz Out-of-Sample Test](https://github.com/ceciliaalocicero/markowitz-out-of-sample-test)
+> **Related projects:** [Testing the CAPM on US Equities](https://github.com/ceciliaalocicero/capm-empirical-tests-sp500) · [Markowitz Portfolio Optimization Backtest](https://github.com/ceciliaalocicero/markowitz-portfolio-optimization-backtest)
 
 ---
 
