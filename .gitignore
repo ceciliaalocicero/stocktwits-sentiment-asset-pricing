@@ -1,0 +1,45 @@
+# --- Data: never commit (licensed or course-provided) ---
+data/raw/
+data/processed/
+*.csv
+*.csv.gz
+*.parquet
+*.xlsx
+*.xls
+*.feather
+*.h5
+
+# --- Credentials ---
+.env
+.pgpass
+*.pgpass
+wrds_credentials*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local working copies and caches
+_original/
+data/cache/
+*.zip
+*.pkl
+*.pickle
+*.parquet
+preds_*.csv
+
+# Hugging Face / model caches
+.cache/
+hf_cache/
