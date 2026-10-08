@@ -103,7 +103,7 @@ They are compared on cross-correlation, persistence and rankings.
 ## Repository structure
 
 ```
-stocktwits-attention-factor/
+stocktwits-sentiment-asset-pricing/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -130,8 +130,8 @@ Full re-execution needs the raw StockTwits archives, the CRSP extract, internet 
 ## Reproducing the analysis
 
 ```bash
-git clone https://github.com/ceciliaalocicero/stocktwits-attention-factor.git
-cd stocktwits-attention-factor
+git clone https://github.com/ceciliaalocicero/stocktwits-sentiment-asset-pricing.git
+cd stocktwits-sentiment-asset-pricing
 python -m venv .venv
 .venv\Scripts\activate            # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
